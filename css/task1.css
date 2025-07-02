@@ -1,68 +1,14 @@
-/* .categories {
-    border-radius: 8px;
-    padding: 24px;
-    width: 440px;
-    background-color:#fff;
-}
-
-.item-animals {
-    width: 392px;
-    height: 264px;
-    margin-bottom: 24px;
-    background-color:#f6f6fe;
-    padding: 16px;
-}
-.item-products {
-    width: 392px;
-    height: 332px;
-    background-color:#f6f6fe;
-    padding: 16px;
-}
-.item-technologies {
-    width: 392px;
-    height: 312px;
-    background-color:#f6f6fe;
-    padding: 16px;
-}
-.categories-name-animals {
-    padding-top: 0;
-    margin: 0;
-
-}
-.categories-name-products {
-    margin-top: 132px;
-}
-
-.categories-name-technologies {
-
-}
-.categories-list {
-    padding-left: 0;
-    padding-bottom: 16px;
-
-}
-
-.categories-item {
-    height: 40px;
-    padding: 8px 12px;
-    margin-bottom: 8px;
-    border: 1px solid #808080;
-    border-radius: 4px;
-    color: #2e2f42;
-} */
-
 .categories {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column; 
-    gap: 24px; 
-    width: 440px;
-    box-sizing: border-box; 
-    background-color:#fff;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+  gap: 24px; 
+  width: 440px;
+  box-sizing: border-box; 
+  background-color:#fff;
 }
 
-/* Стили для каждого блока категории (Animals, Products, Technologies) */
 .categories .item-animals,
 .categories .item-products,
 .categories .item-technologies {
@@ -71,33 +17,34 @@
   padding: 24px;
 }
 
-/* Стили для заголовков категорий */
 .categories-name-animals,
 .categories-name-products,
 .categories-name-technologies {
   font-size: 24px;
-  font-weight: 600; /* Полужирный шрифт */
-  color: #333333; /* Темный цвет текста */
+  font-weight: 600; 
+  color:  #2e2f42; 
   margin-top: 0;
-  margin-bottom: 20px; /* Отступ снизу */
-  padding-bottom: 10px; /* Небольшой отступ для линии под заголовком, если нужна */
-  /* border-bottom: 1px solid #eeeeee;  Можно добавить нижнюю границу, если нужно */
+  margin-bottom: 20px; 
+  padding-bottom: 10px; 
+  
 }
 
-/* Стили для списков внутри категорий */
 .categories-list {
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Отступы между элементами списка */
+  gap: 10px; 
 }
 
-/* Стили для отдельных элементов списка */
 .categories-item {
   border: 1px solid #808080; 
   border-radius: 6px; 
-  padding: 12px 15px; /* Внутренние отступы */
+  padding: 12px 15px;
   font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
   color: #2e2f42;
 }
