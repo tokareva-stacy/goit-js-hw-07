@@ -26,7 +26,12 @@ input#name-input {
     margin-bottom: 20px; 
     box-sizing: border-box;
 }
-
+input#name-input:hover {
+    border: 1px solid #000000;
+}
+input::placeholder {
+    color: #2e2f42;
+}
 h1 {
     font-size: 24px;
     color: #2e2f42;;
